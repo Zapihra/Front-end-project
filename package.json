@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "responsive front-end project",
   "main": "index.js",
+  "homepage": "https://Zapihra.github.io/front-end-project",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css --recursive",
     "deploy": "gh-pages -d dist"
@@ -10,6 +11,7 @@
   "author": "Zapihra",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.3"
   }
 }
